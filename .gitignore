@@ -1,7 +1,3 @@
-/Syntax-Collection-Basic-*
+/Syntax-Collection-*
 /.build
-/_build*
-/Build
-MYMETA.*
 !META.json
-/.prove
