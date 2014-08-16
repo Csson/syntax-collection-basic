@@ -20,7 +20,7 @@ use Syntax::Collector q/
 
 Erik Carlsson
 
-=COPYRIGHT
+=head1 COPYRIGHT
 
 Copyright 2014 - Erik Carlsson
 
