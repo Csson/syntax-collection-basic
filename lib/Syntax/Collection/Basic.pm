@@ -2,7 +2,7 @@ package Syntax::Collection::Basic;
 
 use 5.010;
 
-our $VERSION = "0.02";
+our $VERSION = "0.04";
 
 
 use Syntax::Collector q/
@@ -14,7 +14,20 @@ use Syntax::Collector q/
 
 1;
 
-# ABSTRACT: Standard boilerplate
+=head1 NAME
+
+Syntax::Collection::Basic - yet another.
+
+=head1 SYNOPSIS
+
+   use Syntax::Collection::Basic;
+
+Is really
+
+	use strict;
+	use warnings;
+	use Modern::Perl '2014';
+	use true;
 
 =head1 AUTHOR
 
