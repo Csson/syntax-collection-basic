@@ -8,13 +8,18 @@ package Syntax::Collection::Moose {
     use Kavorka();
     use Moose::Exporter;
 
+    Moose::Exporter->setup_import_methods(
+        with_meta => ['has'],
+        also      => ['Moose'],
+    );
+
     sub init_meta {
         my $class = shift;
         my %params = @_;
         my $for_class = $params{'for_class'};
 
         Moose->init_meta(@_);
-        MooseX::StrictConstructor->import({ info => $for_class });
+        MooseX::StrictConstructor->import({ into => $for_class });
         Moops->import(into => $for_class);
         Kavorka->import({ into => $for_class });
     }
