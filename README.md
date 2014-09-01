@@ -1,3 +1,18 @@
+# NAME
+
+Syntax::Collection::Basic - yet another.
+
+# SYNOPSIS
+
+    use Syntax::Collection::Basic;
+
+Is really
+
+        use strict;
+        use warnings;
+        use Modern::Perl '2014';
+        use true;
+
 # AUTHOR
 
 Erik Carlsson
