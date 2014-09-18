@@ -2,7 +2,7 @@ package Syntax::Collection::Basic;
 
 use 5.010;
 
-our $VERSION = "0.05";
+our $VERSION = "0.06";
 
 
 use Syntax::Collector q/
