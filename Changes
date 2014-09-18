@@ -1,6 +1,7 @@
 Revision history for Syntax-Collection-Basic
 
 {{$NEXT}}
+    - More missing prereqs...
 
 0.05  2014-09-02 23:58:19 CEST
 	- Fix missing dependencies

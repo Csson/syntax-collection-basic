@@ -24,6 +24,11 @@
       ]
    },
    "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::Pod" : "1.45"
+         }
+      },
       "configure" : {
          "requires" : {
             "Module::Build::Tiny" : "0.037"
@@ -36,8 +41,10 @@
       },
       "runtime" : {
          "requires" : {
+            "Kavorka" : "0",
             "Modern::Perl" : "1.20140107",
             "Moops" : "0.025",
+            "Moose" : "2.00",
             "MooseX::StrictConstructor" : "0",
             "Syntax::Collector" : "0.005",
             "perl" : "5.018",
