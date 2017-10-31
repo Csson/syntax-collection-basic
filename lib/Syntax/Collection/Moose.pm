@@ -3,7 +3,7 @@ use 5.018;
 # AUTHORITY
 
 package Syntax::Collection::Moose {
-our $VERSION = '0.0601';
+our $VERSION = '0.0602';
     use Syntax::Collection::Basic;
 
     # see http://blogs.perl.org/users/ovid/2013/09/building-your-own-moose.html

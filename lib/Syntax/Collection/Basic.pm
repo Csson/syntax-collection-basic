@@ -4,7 +4,7 @@ use 5.010;
 
 # ABSTRACT: (deprecated)
 # AUTHORITY
-our $VERSION = '0.0601';
+our $VERSION = '0.0602';
 
 
 use Syntax::Collector q/
