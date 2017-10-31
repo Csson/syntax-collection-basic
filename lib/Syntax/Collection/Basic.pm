@@ -2,21 +2,25 @@ package Syntax::Collection::Basic;
 
 use 5.010;
 
-# ABSTRACT: yet another
+# ABSTRACT: (deprecated)
 # AUTHORITY
 our $VERSION = '0.0601';
 
 
 use Syntax::Collector q/
-	use strict 0;
-	use warnings 0;
-	use Modern::Perl 0 '2014';
-	use true 0;
+    use strict 0;
+    use warnings 0;
+    use Modern::Perl 0 '2014';
+    use true 0;
 /;
 
 1;
 
 =pod
+
+=head1 STATUS
+
+Deprecated.
 
 =head1 SYNOPSIS
 
@@ -24,7 +28,7 @@ use Syntax::Collector q/
 
 Is really
 
-	use strict;
-	use warnings;
-	use Modern::Perl '2014';
-	use true;
+    use strict;
+    use warnings;
+    use Modern::Perl '2014';
+    use true;
