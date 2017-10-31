@@ -1,9 +1,9 @@
 use 5.018;
 
 # AUTHORITY
-our $VERSION = '0.0601';
 
 package Syntax::Collection::Moose {
+our $VERSION = '0.0601';
     use Syntax::Collection::Basic;
 
     # see http://blogs.perl.org/users/ovid/2013/09/building-your-own-moose.html
