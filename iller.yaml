@@ -26,9 +26,22 @@ plugins:
   - +config: Author::CSSON
   - +plugin: Deprecated
   - +remove_plugin: TravisYML
+  - +remove_plugin: Test::Kwalitee::Extra
 
 ---
 doctype: weaver
 
 plugins:
   - +config: Author::CSSON
+
+---
+doctype: cpanfile
+
+---
+doctype: gitignore
+
+config: Author::CSSON
+
+always:
+ - /Syntax-Collection-Basic*
+ - /Syntax-Collection-Moose*
