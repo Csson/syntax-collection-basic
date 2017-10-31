@@ -2,7 +2,9 @@ package Syntax::Collection::Basic;
 
 use 5.010;
 
-our $VERSION = "0.06";
+# ABSTRACT: yet another
+# AUTHORITY
+our $VERSION = '0.0601';
 
 
 use Syntax::Collector q/
@@ -14,9 +16,7 @@ use Syntax::Collector q/
 
 1;
 
-=head1 NAME
-
-Syntax::Collection::Basic - yet another.
+=pod
 
 =head1 SYNOPSIS
 
@@ -28,15 +28,3 @@ Is really
 	use warnings;
 	use Modern::Perl '2014';
 	use true;
-
-=head1 AUTHOR
-
-Erik Carlsson
-
-=head1 COPYRIGHT
-
-Copyright 2014 - Erik Carlsson
-
-=head1 LICENSE
-
-This library is free software; you can redistribute it and/or modify it under the same terms as Perl itself.

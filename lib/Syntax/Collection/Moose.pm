@@ -1,3 +1,8 @@
+use 5.018;
+
+# AUTHORITY
+our $VERSION = '0.0601';
+
 package Syntax::Collection::Moose {
     use Syntax::Collection::Basic;
 
@@ -36,3 +41,9 @@ package Syntax::Collection::Moose {
         }
     }
 }
+
+=pod
+
+=head1 STATUS
+
+Deprecated.
