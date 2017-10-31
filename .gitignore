@@ -1,3 +1,12 @@
-/Syntax-Collection-*
+# This file was auto-generated from iller.yaml by Dist::Iller on 2017-10-31 18:18:06 UTC.
+# The following configs were used:
+# * Dist::Iller::Config::Author::CSSON: 0.0319
+
 /.build
+/_build*
+/Build
+MYMETA.*
 !META.json
+/.prove
+/Syntax-Collection-Basic*
+/Syntax-Collection-Moose*

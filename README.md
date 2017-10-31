@@ -1,6 +1,6 @@
 # NAME
 
-Syntax::Collection::Basic - yet another
+Syntax::Collection::Basic - (deprecated)
 
 <div>
     <p>
@@ -15,16 +15,20 @@ Syntax::Collection::Basic - yet another
 
 Version 0.0601, released 2017-10-31.
 
+# STATUS
+
+Deprecated.
+
 # SYNOPSIS
 
     use Syntax::Collection::Basic;
 
 Is really
 
-        use strict;
-        use warnings;
-        use Modern::Perl '2014';
-        use true;
+    use strict;
+    use warnings;
+    use Modern::Perl '2014';
+    use true;
 
 # SOURCE
 
